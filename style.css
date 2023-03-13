@@ -3,7 +3,7 @@ body, html {
  }
  body {
     font-family: 'Georgia', sans-serif;
-    background: #222 https://github.com(Nikkolos1/cssBayan/tree/main/Images) no-repeat;
+    background: #222;
     display: flex;
     justify-content: center;
     flex-basis: auto;
@@ -11,7 +11,7 @@ body, html {
  }
  .nav {
     list-style-type: none;
-    border-radius: 20px;
+    border-radius: 20vmin;
     background: #a104c0;
     margin: 0;
     padding: 0;
@@ -22,7 +22,7 @@ body, html {
  .nav-item {
     font-size: 20px;
     background: #01f065;
-    border-bottom: 1px solid rgba(63, 46, 73, 0.3);
+    border-bottom: 1vmin solid rgba(63, 46, 73, 0.3);
  }
  
  .nav-item:last-child {
@@ -31,7 +31,7 @@ body, html {
  
  .nav-link, .nav-submenu-link {
     text-decoration: none;
-    padding: 12px 17px;
+    padding: 12vmin 17vmin;
     display: block;
     color: #eef11a;
  }
@@ -46,9 +46,18 @@ body, html {
     max-height: 50rem;
  }
  .nav-submenu-link {
-    font-size: 16px;
+    font-size: 16vmin;
     background: transparent;
  }
  .nav-submenu-link:hover {
     background: #36253f;
  }
+#mem1{
+margin-left: auto;
+margin-right: auto;
+position: relative;
+width: 25vmin;
+height: 35vmin;
+background-image: url(./Images/1.jpg);
+background-position: center;
+background-size: cover;
